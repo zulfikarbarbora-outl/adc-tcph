@@ -1,15 +1,13 @@
-# TEST: Cellos Pizzicato Harmonics — Opus 48k Previews
+# Audio Data Collection
 
-TEST import from Sonic Implants Symphonic Strings — Cellos Pizzicato Harmonics. Will be deleted after testing.
+Audio files in Opus 48k format with metadata index.
 
-## Source
-- Original: https://archive.org/details/sonic-implants-symphonic-string-collection
-- License: CC0-1.0
-- Author: Sonic Implants
+## Contents
 
-## Files
-- 66 Opus 48k VBR audio files
-- `index.json`
+- `index.json` — metadata index
+- `*.opus` — audio files
+- `validate.py` — validation script
 
-## Sourced by
-`tools/gig_to_sldf_v3.py` on 2026-07-28
+## License
+
+CC0-1.0 / Public Domain
